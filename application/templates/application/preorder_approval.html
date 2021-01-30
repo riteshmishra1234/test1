@@ -1,0 +1,60 @@
+{% extends 'base_home.html' %}
+{% load static %}
+
+{% block content %}
+<div class="main-container" id="pre-approval">
+    <div class="title"><b># Pre Order Approval Form</b>
+        <div class="add_product_row"><button class="btn btn-success btn-sm" v-on:click="addRow">Add Product</button></div>
+    </div>
+    <div class="pre-order-form">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Product</th>
+                    <th scope="col">Unit</th>
+                    <th scope="col">Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="calculator">
+        <div class="add_total"><b>Total : </b><span class="total-amount">0</span> Rs</div>
+        <div class="add_request"><button class="btn btn-danger btn-sm">Submit</button></div>
+    </div>
+</div>
+
+<script>
+var pre_approval =  new Vue({
+    el: '#pre-Approval',
+    data:{
+         total:null,
+    },
+    methods:{
+        addRow: function(){
+            
+        }
+    }
+});
+</script>
+{% endblock %}

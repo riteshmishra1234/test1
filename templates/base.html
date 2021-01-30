@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Sapat Bookkeeper</title>
+
+  <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+  <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/vue.min.js' %}"></script>
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+<head>
+    <body>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>

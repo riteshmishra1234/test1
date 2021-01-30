@@ -1,0 +1,182 @@
+#container {
+    height:100%;
+}
+
+body, html {
+  font-family: 'Helvetica', monospace;
+  height: 100%;
+}
+
+.left-home {
+    float:left;
+    height:100%;
+    width:40%;
+}
+
+.right-home {
+    float:left;
+    height:100%; 
+}
+
+.login {
+    margin:20px;
+    position:fixed;
+    top: 20%;
+    left: 55%;
+}
+
+.left-menu {
+    float:left;
+    height:100%;
+    width:20%;
+    background-color:#23283e; /*#323d4f*/
+}
+
+.right-output {
+    float:right;
+    height:100%;
+    width:80%;
+}
+
+.top-bar .input-group {
+    border-radius: 50%;
+    width:50%;
+    float:left;
+    margin: 12px 0px 0px 110px;
+}
+
+.top-bar input:focus {
+    outline: 0 !important;
+    border-color: initial;
+    box-shadow: none;
+}
+
+.user-info {
+    margin:10px 30px 30px 30px;
+    padding:10px 10px 10px 10px;
+}
+
+.user-info .name{
+    padding-bottom:10px;
+    font-size:20px;
+    float:right;
+    color:#23283e
+}
+
+.user-info .notifs {
+    color: #aab2c1;
+    float:right;
+    padding-top:4px;
+    padding-left:20px;
+}
+
+.left-menu .logo {
+    margin:20px 10px 10px 20px;
+    border-bottom:1px solid white;
+    padding-left:10px;
+}
+
+.left-menu .logo img{
+    max-height:100%;
+    max-width:80%;
+    padding-bottom:20px;
+}
+
+.forms ul {
+    color: white;
+    margin: 30px 10px 10px 20px;
+}
+
+.forms li {
+    margin:15px 10px 15px 10px;
+}
+
+.forms a:hover {
+   color:white;
+}
+ 
+.forms a{
+    color: #aab2c1;
+    text-decoration:none;
+}
+
+.main-container .title {
+    margin:40px 10px 10px 30px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-top:1px solid black;
+    color:#23283e;
+    font-size:18px;
+}
+
+.left-menu .logout {
+    position: fixed;
+    bottom: 0;
+    margin:20px;
+    padding-left:40px;
+}
+.left-menu .logout a {
+    color:white;
+    font-size:20px; 
+    text-decoration:none;
+    width:150px !important;
+    border-radius:100px !important;
+}
+
+.user-info .bookkeeper{
+    float:left;
+    font-size:30px;
+    color:#23283e;
+}
+
+.pre-order-form {
+    margin:10px 30px 10px 30px;
+}
+
+.pre-order-form td{
+   font-size:14px;
+   color:#4f545d; 
+}
+.pre-order-form td{
+   font-size:14px;
+   color:#4f545d; 
+}
+
+.pre-order-form .table{
+    font-weight:normal;
+}
+
+.calculator{
+    width:75%;
+    position: fixed;
+    bottom: 0;
+    margin:30px;
+    border-top:1px solid black;    
+}
+
+.add_product_row {
+    padding:10px 10px 10px 30px;
+    float:right;
+
+}
+
+.add_product_row .btn {
+    border-radius:20px;
+    margin-right:20px;
+}
+
+.calculator .add_total {
+    padding:20px 10px 0px 20px;
+    float:left;
+}
+
+.calculator .add_request {
+    padding:20px 10px 0px 20px;
+    float:right;
+}
+
+.calculator .add_request .btn{
+    border-radius:20px;
+    width:90px;
+}
+

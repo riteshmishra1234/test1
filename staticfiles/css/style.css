@@ -1,0 +1,36 @@
+#container {
+    height:100%;
+}
+
+body, html {
+  height: 100%;
+}
+
+.left-home {
+    float:left;
+    height:100%;
+    width:40%;
+}
+
+.right-home {
+    float:left;
+    height:100%; 
+}
+
+.login {
+    margin:20px;
+    position:fixed;
+    top: 20%;
+    left: 55%;
+}
+
+.top-bar {
+    height:10%;
+    background-color: #135391;
+}
+
+.top-bar img {
+    padding: 8px 10px 8px 10px;
+    max-height: 100%;
+    max-width:100%;
+}
